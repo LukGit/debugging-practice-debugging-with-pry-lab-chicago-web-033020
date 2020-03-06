@@ -14,7 +14,6 @@ end
 def greet_crew (crew)
   outcrew = []
   crew.each {|crew_member| outcrew << "Hello #{crew_member}"}
-  binding.pry
 end
 
 def engage
