@@ -12,7 +12,7 @@ def crew
 end
 
 def greet_crew (crew)
-  outcrew = crew.each {|crew_member| "Hello #{crew_member}."}
+  outcrew = crew.each {|crew_member| "Hello " + crew_member + "."}
   binding.pry
 end
 
